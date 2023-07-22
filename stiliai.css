@@ -1,0 +1,94 @@
+header{
+    background: #000033;
+    height: 190px;
+    display: flex;
+    padding: 0 100;
+    justify-content: space-between;
+   
+    flex-direction: column;
+}
+body{
+    background: rgb(205, 228, 245);
+}
+main{
+    display: flex;
+  
+    text-align: justify;
+    
+}
+.logo img{
+    display: flex;
+    height: 150px;
+    justify-content: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.navig{
+    display: flex;
+    height: 30px;
+    justify-content: right;
+    background-color: rgb(41, 40, 40);
+    }
+
+
+.navig a {
+        margin-right: 15px; 
+        text-decoration: none;
+        color: rgb(241, 235, 235);
+        font-size: larger;
+        
+      }
+.navigacija{
+    display: flex;
+    background: #171720;
+    justify-content: left;
+}      
+
+.content{
+    font-size: larger;
+   flex-direction: row;
+   flex: 3;
+   padding-left: 40px;
+
+   margin: 20px;
+   text-align: justify;
+   
+}
+
+#foto{
+   display: flex;
+   flex: 2;
+   justify-content: flex-end;
+   max-width: 100%;
+   }
+
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #000033;
+    padding: 10px; 
+    border-radius: 20px;
+    text-align: center;
+}
+
+.btn-wrapper{
+    text-align: right;
+
+}
+
+
+.foot{
+    display: flex;
+    background: #171720;
+    color: rgb(130, 129, 128);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#pavadinimas{
+    font-weight: bold;
+    font-style: italic;
+}

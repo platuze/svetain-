@@ -1,0 +1,30 @@
+body{
+    background: rgb(196, 235, 240);
+}
+
+p{
+    font-size: 14px;
+}
+
+#bold{
+    font-weight: bold;
+    color: rgb(6, 6, 33);
+}
+
+button{
+    font-size: large;
+    border-color: brown;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #000033;
+    padding: 10px; 
+    margin-top: 10px;
+   }
+
+.btn-wrapper{
+    text-align: left;
+
+}   

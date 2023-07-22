@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+    <title>Java Script užduotis</title>
+    <link rel="stylesheet" type="text/css"   href="stilius1.css"/>
+   
+    <style>
+        .dydis{
+            font-size: 24px;
+        }
+
+        .spalva{
+            color:yellow;
+            background: blue;
+        }
+    </style>
+    
+</head>
+<body>
+   <header>
+    <h1>JavaScript užduotis:</h1>
+   </header> 
+   <main>
+    <section>
+    <ol>
+        <li id="bold">Į svetainę įdėti JavaScript kodą, kuris:</li>
+            <ul>
+                <li>Yra funkcija</li>
+                <li>Funkcija savyje turi console.log(“SVEIKI, SKAITOTE CONSOLE.LOG?)</li>
+                <li>Funkcija iškviečiama atidarius puslapį</li>
+            </ul>
+        <br>    
+        <li id="bold">Svetainėje turi būti mygtukas, tekstas ar kitas panašus elementas ant kurio paspaudus:</li>   
+            <ul>
+                <li>Pasikeičia jo spalva, dydis ar kitas stiliaus elementas (pasirinktinai). [PAPILDOMAI] Paspaudus ir vėl atsikeičia į prieš tai buvusį.</li>
+                <li>Kodas turi suveikti panaudojus event listener</li>
+            </ul>
+         <br>
+        <li id="bold">Į puslapį įdėti sekcija su nuotraukomis</li>    
+        
+    </ol>
+    </section>
+    
+   
+    <section>
+ <!-- 1 užduotis -->
+        <script>
+            addEventListener("DOMContentLoaded",function() {
+                pasisveikinimas();
+            });
+
+
+            function pasisveikinimas(){
+                console.log('SVEIKI, SKAITOTE CONSOLE.LOG')
+               
+            }
+        </script>
+       
+ <!-- 2 užduotis -->  
+    
+        <button class="spalva">2 Užduotis</button>
+        
+        <script src="java.js"></script>
+
+ <!-- mygtukas į trečią užduotį --> 
+ <form action="nuotraukos.html">
+    <button class="btn" type="submit">3 UŽDUOTIS</button>
+  </form>
+
+
+</section> 
+
+      
+        
+     
+   
+ 
+
+
+   </main>
+</body>
+</html>
